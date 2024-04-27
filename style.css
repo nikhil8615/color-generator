@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  /* padding: 20px; */
+  font-size: 20px;
+}
+.random-color-generator-container {
+  display: flex;
+  gap: 10px;
+}
+.hex-color-generator,
+.rgb-color-container {
+  min-height: 100vh;
+  flex: 1;
+}
+.hex-color-generator button {
+  padding: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: rgb(230, 246, 127);
+  border-radius: 20px;
+}
+.hex-color-generator {
+  background: green;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.hex-color-generator p {
+  font-size: 30px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.rgb-color-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.rgb-color-container p {
+  font-size: 30px;
+  color: #fff;
+  font-weight: bold;
+}
+.rgb-color-container .rgb-btn {
+  width: 200px;
+  padding: 15px;
+  border-radius: 10px;
+  background: pink;
+  color: white;
+  font-size: 20px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+.rgb-color-container {
+  background-color: rgb(0, 255, 247);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rgb-copy-color {
+  width: 200px;
+  padding: 15px;
+  border-radius: 10px;
+  background: pink;
+  color: white;
+  font-size: 20px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
